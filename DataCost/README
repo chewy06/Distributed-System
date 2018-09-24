@@ -1,0 +1,11 @@
+Team Members: Jesus Vivar, Juan Carlos Ferrel
+
+HOW TOs:
+How to compile: "make" or "make tsp"
+How to run: mpirun --hostfile <file_with_host_machines> -np <int> <myprog> <input_file> <arg1>
+
+<file_with_host_machines>: 127x02 \n 127x04...127xXX
+<int>: number of process to create.
+<myprog>: ./tsp
+<input_file>: *.tsp
+<arg1>: number of iteration(1-xxx)
